@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/StefanoSilv/twitter_server/issues"
   },
-  "homepage": "https://github.com/StefanoSilv/twitter_server#readme"
+  "homepage": "https://github.com/StefanoSilv/twitter_server#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
