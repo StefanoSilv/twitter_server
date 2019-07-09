@@ -19,6 +19,13 @@ require('./db.js')
 app.get('/api/messages', require('./controllers/get_messages'))
 app.post('/api/messages', require('./controllers/post_message'))
 
+//Api for hashtags
+app.get('/api/hashtags', require('./controllers/get_hashtags'))
+app.post('/api/hashtags', require('./controllers/post_hashtag'))
+
+//Api for users
+app.get('/api/users', require('./controllers/get_users'))
+
 
 
 
