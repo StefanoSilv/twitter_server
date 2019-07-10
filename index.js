@@ -30,6 +30,7 @@ app.get('/api/users', require('./controllers/get_users'))
 app.post('/api/signup', require('./controllers/signup'))
 
 //Login
+app.post('/api/login', require('./controllers/login'))
 
 
 
