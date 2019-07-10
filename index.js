@@ -26,6 +26,11 @@ app.post('/api/hashtags', require('./controllers/post_hashtag'))
 //Api for users
 app.get('/api/users', require('./controllers/get_users'))
 
+//Signup
+app.post('/api/signup', require('./controllers/signup'))
+
+//Login
+
 
 
 
