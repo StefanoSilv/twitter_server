@@ -7,12 +7,9 @@ module.exports = (req, res) => {
 		console.log(req.query)
 	}
 	db_message.find(q).sort('-date').populate({
-		path: 'hashtag',
-		select: 'name'
-	}).populate({
 		path: 'author',
 		select: 'name'
-	}).sort('-date').then((data) => {
+	}).then((data) => {
 		res.send(data)
 	}).catch((err) => {
 		res.send(err)
